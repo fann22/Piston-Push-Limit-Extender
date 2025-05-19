@@ -32,6 +32,9 @@ After first run, a config file is generated at:
   
 > You can also set/edit default value & push limits value manually there.
 
+## Known issue
+- Currently is incompatible with Carpet mod
+
 ## License
 
 This project is licensed under the [MIT License](LICENSE).
