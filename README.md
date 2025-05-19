@@ -7,12 +7,12 @@ A lightweight Forge/Fabric mod that removes the vanilla 12‑block piston push l
 - 🚀 Increase piston push limit anywhere from 0 up to 512.
 - ⚙️ Fully configurable at runtime, no restart required.
 - 🔄 Respects vanilla piston behavior aside from the new limit.
-- 🤝 Compatible with both singleplayer and multiplayer (requires server‑side install).
+- 🤝 Compatible with both singleplayer and multiplayer.
 
 ## Installation
 
-1. Download the latest build from the [Releases](https://github.com/fann22/piston-push-limit-extender/releases) page.  
-2. Drop the JAR into your `mods/` folder (Forge 1.16+ or Fabric 1.16+).  
+1. Download the JAR from the [Versions](https://modrinth.com/mod/piston-push-limit-extender/versions) page.  
+2. Drop the JAR into your `mods/` folder.  
 3. Start your game or server.
 
 ## Usage
@@ -37,5 +37,4 @@ After first run, a config file is generated at:
 
 ## License
 
-This project is licensed under the [MIT License](LICENSE).
-
+This project is licensed under the [MIT License](https://github.com/fann22/Piston-Push-Limit-Extender/blob/main/LICENSE).
