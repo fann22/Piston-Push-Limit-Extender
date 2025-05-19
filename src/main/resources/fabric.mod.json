@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "id": "pistonpushlimitextender",
+  "version": "${version}",
+
+  "name": "Piston Push Limit Extender",
+  "description": "Sick of piston's 12 blocks limit?, use this mod to increase it.",
+  "authors": ["Fann22"],
+  "contact": {
+    "discord": "https://discord.gg/Fann_27",
+    "youtube": "https://youtube.com/@fannmods"
+  },
+
+  "license": "MIT",
+  "icon": "assets/pistonpushlimitextender/icon.png",
+
+  "environment": "client",
+  "entrypoints": {
+    "main": ["fannmods.pple.Main"]
+  },
+
+  "mixins": [
+    "pistonpushlimitextender.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
