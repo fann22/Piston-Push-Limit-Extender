@@ -6,6 +6,7 @@ import com.google.gson.GsonBuilder;
 import java.io.*;
 import java.nio.file.Files;
 import java.nio.file.Path;
+import java.nio.file.Paths;
 
 public class Config {
     public static int PushLimit = 12;
@@ -13,7 +14,7 @@ public class Config {
     public static int MaxRange = 512;
 
     private static final Gson GSON = new GsonBuilder().setPrettyPrinting().create();
-    private static final Path CONFIG_PATH = Path.of("config", "pistonpushlimit.json");
+    private static final Path CONFIG_PATH = Paths.get("config", "pistonpushlimit.json");
 
     public static void load() {
         try {
