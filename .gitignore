@@ -1,0 +1,77 @@
+# === Java / Gradle ===
+*.class
+*.jar
+*.war
+*.ear
+*.iml
+*.log
+
+# === Build output ===
+/build/
+/out/
+/bin/
+
+# === Gradle wrapper files (keep only the ones you use) ===
+.gradle/
+/.gradle-cache/
+/**/.gradle/
+**/.classpath
+**/.project
+**/.settings/
+
+# === IDE-specific ===
+# IntelliJ IDEA
+.idea/
+*.iws
+*.ipr
+*.iml
+out/
+
+# Eclipse
+*.launch
+.settings/
+.project
+.classpath
+
+# VS Code
+.vscode/
+
+# === OS-specific ===
+.DS_Store
+Thumbs.db
+
+# === Minecraft Modding Specific ===
+run/
+runClient/
+runServer/
+logs/
+hs_err_pid*.log
+
+# === Cache and Temporary ===
+**/*.tmp
+**/*~ 
+*.swp
+*.swo
+
+# === Yarn / Loom cache (Fabric) ===
+.remapped/
+**/remappedSrc/
+**/remapped/
+.cache/
+loom-cache/
+
+# === Gradle wrapper logs ===
+gradle-app.setting
+gradle.properties.lock
+
+# === Backup and patching tools ===
+*.bak
+*.patch
+
+# === Keep these tracked ===
+!gradle.properties
+!build.gradle
+!build.gradle.kts
+!settings.gradle
+!settings.gradle.kts
+!src/
